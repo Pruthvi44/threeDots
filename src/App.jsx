@@ -1,10 +1,13 @@
 import './App.css';
-import Header from './Components/Header';
+import Home from './Components/Home';
+import Slider from './Components/Slider';
+import SliderImg from './Components/SliderImg';
 
 function App() {
   return (
     <div className="App">
- <Header />
+      
+      <Home/>
     </div>
   );
 }
