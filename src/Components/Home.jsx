@@ -6,12 +6,16 @@ import SliderImg from './SliderImg';
 function Home() {
     return ( 
         <>
-        <Header/>
-        {/* <Slider>
+        <div> 
+        <Slider>
         {SliderImg.map((image, index) => {
           return <img key={index} src={image.imgURL} alt={image.imgAlt} />;
         })}
-      </Slider> */}
+      </Slider>
+      </div>
+      <div className='new'>
+        <h1>dlnsid</h1>
+      </div>
         </>
      );
     

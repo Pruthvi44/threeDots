@@ -13,7 +13,7 @@ function Slider({ children }) {
         setTimeout(() => {
           slideNext();
           setSlideDone(true);
-        }, 3000)
+        }, 2000)
       );
     }
   }, [slideDone]);

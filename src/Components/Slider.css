@@ -1,6 +1,6 @@
 .container__slider {
     position: relative;
-    width: 100%;
+    width: 90%;
     padding: 0;
     overflow: hidden;
     display: flex;
@@ -9,6 +9,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     background-color: black;
+    margin-left: 10%
   }
   
   .container__slider > button {
@@ -99,6 +100,5 @@
   
   .slider__item img {
     width: 100%;
-    height: auto;
   }
   
