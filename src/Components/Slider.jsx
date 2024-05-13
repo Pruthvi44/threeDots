@@ -13,7 +13,7 @@ function Slider({ children }) {
         setTimeout(() => {
           slideNext();
           setSlideDone(true);
-        }, 2000)
+        }, 3000)
       );
     }
   }, [slideDone]);
@@ -57,6 +57,7 @@ function Slider({ children }) {
       onMouseEnter={AutoPlayStop}
       onMouseLeave={AutoPlayStart}
     >
+
       {children.map((item, index) => {
         return (
           <div
@@ -105,6 +106,8 @@ function Slider({ children }) {
       >
         {"<"}
       </button>
+
+      
     </div>
   );
 }

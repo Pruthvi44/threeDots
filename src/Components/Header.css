@@ -1,13 +1,13 @@
 .left-block{
     background-color: black;
     height:100vh;
-    width:120px;
+    width:90px;
 }
 .left-block button{
     margin-top: 20px;
 }
 .left-block img{
-    width: 97px;
+    width: 90px;
 }
 .menu{
     background-color: black;
@@ -34,5 +34,5 @@
 #menu-btn{
     color: rgb(105, 106, 105);
     font-size: 30px;
-    padding-left: 34px;
+    padding-left: 30px;
 }
