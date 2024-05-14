@@ -1,0 +1,24 @@
+.AboutExtend-content{
+    background-color: #f7f7f7; 
+    position: relative;
+    padding: 70px;
+    margin-top: 5%;
+}
+.AboutExtend-content h2{
+    font-family: Montserrat, sans-serif;
+    font-size: 32px;
+    margin-top: 0%;
+}
+.AboutExtend-content img{
+    margin-left: 50%;
+    margin-top: -5%;
+    height: 35%;
+    
+}
+.AboutExtend-content h3{
+    color: #232323;
+    font-size: 18px;
+    width: 45%;
+    font-weight: 400;
+    margin-top: -10%;
+}

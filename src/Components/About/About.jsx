@@ -2,8 +2,8 @@ import './About.css'
 import image1 from '../../Assets/images/About_img/1.jpg'
 import '@fontsource/roboto/300.css';
 import Backdata from '../About/Backdata';
-import Backdata2 from '../About/Backdata';
 import BackData2 from './BackData2';
+import AboutExtend from './AboutExtend';
 function About(){
     return(
         <>
@@ -22,6 +22,8 @@ function About(){
 
                     <Backdata/>
                     <BackData2 />
+                    <AboutExtend />
+                   
         </div>
         </> 
     )
