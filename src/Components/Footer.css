@@ -1,6 +1,7 @@
 .footer-main{
-    background-color: black;
+    background-color: rgb(33, 33, 33);
     text-align: center;
+    height: 730px;
 }
 .foot-titl{
     margin-left: 15%;
@@ -15,7 +16,67 @@
 }
 .foot-titl h2{
     color: white;
-    font-size: 25px;
+    font-size: 27px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 300;
+}
+.foot-icon{
+    color: white;
+}
+.foot-row1{
+    width: 500px;
+}
+.foot-row1 img{
+    height: 45px;
+    width: 45px;
+}
+.foot-row1 h4{
+    font-size: 17px;
+    margin-left: 300px;
+    margin-top: -30px;
+    text-align: justify;
+}
+.foot-row1 p{
+    font-size: 13px;
+    color: rgb(166, 162, 162);
+    width: 200px;
+    margin-left: 300px;
+    text-align: justify;
+}
+.foot-row1 hr{
+    width: 300px;
+    margin-left: 240px;
+    padding: 2px;
+    border: none;
+    color: aliceblue;
+}
+.footer-last{
+    color: black;
+    margin-left: 10%;
+}
+.footer-last ul{
+    margin-left: 65px;
+    width: 600px;
+}
+.footer-last ul li{
+    float: left;
+    padding: 18px;
+    font-size: 14px;
+    text-align: center;
+    list-style-type: none;
+    
+}
+.icons{
+    font-size: 24px;
+    margin-left: 67%;
+}
+.icons ul li{
+    list-style-type: none;
+    float: left;
+    padding: 2%;
+    margin-top: -12%;
+}
+.icons li:hover{
+    color: gold;
+    transition: 0.2s;
 }
