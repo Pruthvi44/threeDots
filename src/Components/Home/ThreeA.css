@@ -1,0 +1,27 @@
+.threeA-main{
+    text-align: center;
+}
+.titl h3{
+    font-size: 28px;
+}
+.titl p{
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.titl hr{
+    width: 140px;
+    height: 1px;
+    border: none;
+    background-color: orange;
+
+}
+.a-utube iframe{
+    width: 95%;
+    height: 400px;
+    padding: 15px;
+}
+.ad-logo{
+    margin: 10%;
+}
