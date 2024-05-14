@@ -1,0 +1,73 @@
+#AboutProcess-img-align {
+   height: 700px;
+   width: 100%;
+}
+.AboutProcess-mid-data img{
+    width: 28%;
+    margin-left: 33%;
+    margin-top: -24%
+}
+.AboutProcess-mid-data h1{
+    margin-left: 5px;
+    font-size: 48px;
+    font-family: Montserrat, sans-serif;
+    color: #FECC00;
+    margin: 18px;
+    margin-top: 10%;
+}
+.AboutProcess-mid-data hr{
+    width: 10%;
+    float: left;
+    height: 2px;
+    background-color: #FECC00;
+    margin-top: -2%;
+    border: #FECC00;
+    position: relative;
+}
+.AboutProcess-mid-data h2{
+    font-family: Montserrat, sans-serif;
+    font-size: 32px;
+    width: 20%;
+    margin-top: -0%;
+    color: #D6D5D5;
+}
+.AboutProcess-mid-data{
+    padding: 70px;
+    margin-top: -45%;
+}
+.AboutProcess-mid-content h1{
+    color: #D6D5D5;
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    width: 90%;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+.AboutProcess-mid-content h3{
+    color: #6f6f6f;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.AboutProcess-mid-content h4{
+    color: #6f6f6f;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+}
+.AboutProcess-mid-content h2, h5{
+    color: #6f6f6f;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    width: 95%;
+
+}
+#AboutProcess-mid-icon {
+    color: #FECC00;
+    font-size: 35px;
+}
+.AboutProcess-mid-content{
+    margin-left: 30%;
+    margin-top: -25%;
+}
+
+
