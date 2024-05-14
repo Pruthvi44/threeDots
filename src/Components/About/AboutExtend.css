@@ -3,6 +3,8 @@
     position: relative;
     padding: 70px;
     margin-top: 5%;
+    padding-bottom: 15%;
+    
 }
 .AboutExtend-content h2{
     font-family: Montserrat, sans-serif;
@@ -10,15 +12,25 @@
     margin-top: 0%;
 }
 .AboutExtend-content img{
-    margin-left: 50%;
+    margin-left: 45%;
     margin-top: -5%;
     height: 35%;
+    width: 55%;
     
 }
 .AboutExtend-content h3{
     color: #232323;
     font-size: 18px;
-    width: 45%;
+    width: 42%;
     font-weight: 400;
-    margin-top: -10%;
+    margin-top: -25%;
+    font-weight: 500;
+}
+.AboutExtend-content h4{
+    color: #6f6f6f;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    width: 40%;
+    font-weight:600;
+    letter-spacing: 1px;
 }
