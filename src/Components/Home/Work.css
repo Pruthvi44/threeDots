@@ -1,32 +1,54 @@
 .work-main{
+    margin-top: 5%;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.work-info p{
+    font-size: 15px;
+    opacity: 70%;
+}
+.work-info h2{
+    font-size: 28px;
+    line-height: 1%;
+}
+.work-info hr{
+    width: 12%;
+    height: 1px;
+    background-color: orange;
+    border: none;
+}
+.work-inner p{
+    font-size: 16px;
+    opacity: 100%;
+    margin: 30px;
 }
 .work-img-cont{
     display: flex;
 }
 .container {
     position: relative; 
+    
 }
 .image { 
-    width: 300px;
-    height: 300px;
+    width: 335px;
+    height: 260px;
     padding: 10px;
 }
 .overlay {
     position: absolute; 
-    top: 0;  
-    bottom: 0;  
-    left: 0;  
-    right: 0;  
-    height: 100%;  
-    width: 100%;  
+    top: 10px;  
+    bottom: 10px;  
+    left: 10px;  
+    right: 10px;  
+    height: auto;  
+    width: auto;  
     opacity: 0;  
     transition: .5s ease;  
-    background-color: #008CBA;
 }
 .container:hover .overlay {
-      opacity: 1;
+      opacity: 85%;
+      background-color: orange;
+      
     }
 .text {  
     color: white;  
@@ -38,4 +60,54 @@
     -ms-transform: translate(-50%, -50%);  
     transform: translate(-50%, -50%);  
     text-align: center;
-}    
+}
+
+.new{
+    margin-left: 360px;
+    margin-right: 360px;
+    margin-top: -53%;
+}
+.big-container {
+    position: relative; 
+    
+}
+.big-image { 
+    width: 335px;
+    height: 550px;
+    padding: 10px;
+}
+.big-overlay {
+    position: absolute; 
+    top: 10px;  
+    bottom: 10px;  
+    left: 10px;  
+    right: 10px;  
+    height: 550px;  
+    width: 335px;  
+    opacity: 0;  
+    transition: .5s ease;  
+}
+.big-container:hover .big-overlay {
+      opacity: 85%;
+      background-color: orange;
+      
+    }
+.big-text {  
+    color: white;  
+    font-size: 20px;  
+    position: absolute;  
+    top: 50%;  
+    left: 50%;  
+    -webkit-transform: translate(-50%, -50%);  
+    -ms-transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%);  
+    text-align: center;
+}
+.ntwo{
+    margin-top: -239%;
+}
+.nthree{
+    margin-left: 300px;
+}
+
+

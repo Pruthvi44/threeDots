@@ -1,0 +1,30 @@
+.BackData2-mid-data img{
+    width: 28%;
+    margin-left: 33%;
+    margin-top: -24%
+}
+.BackData2-mid-data h1{
+    margin-left: 5px;
+    font-size: 48px;
+    font-family: Montserrat, sans-serif;
+    color: #FECC00;
+    margin: 18px;
+    margin-top: 10%;
+}
+.BackData2-mid-data hr{
+    width: 15%;
+    float: left;
+    height: 2px;
+    background-color: #FECC00;
+    margin-top: -2%;
+    border: #FECC00;
+}
+.BackData2-mid-data h2{
+    font-family: Montserrat, sans-serif;
+    font-size: 32px;
+    width: 25%;
+    margin-top: -0%;
+}
+.BackData2-mid-data{
+    padding: 70px;
+}
