@@ -28,3 +28,34 @@
 .BackData2-mid-data{
     padding: 70px;
 }
+.Backdata2-mid-content{
+    float: right;
+    width: 35%;
+    margin-top: -42%;
+    position: relative;
+}
+.Backdata2-mid-content h3{
+    color: #232323;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+    margin-bottom: 5%;
+    line-height: 26px;
+}
+.Backdata2-mid-content h2{
+    color: #6f6f6f;
+    font-size: 14px;
+    width: 86%;
+    font-weight: 500;
+}
+.Backdata2-mid-content h4{
+    color: #232323;
+    font-size: 18px;
+    width:75%;
+    font-weight: 700;
+    margin-bottom: 9%;
+}
+#Backdata2-mid-icon {
+    color: #FECC00;
+    font-size: 35px;
+}

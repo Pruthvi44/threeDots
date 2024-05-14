@@ -5,6 +5,8 @@ import CreativeAgncy from './CreativeAgncy';
 import Growth from './Growth';
 import Achievment from './Achievment';
 import Work from './Work';
+import Recent from './Recent';
+import ThreeA from './ThreeA';
 
 function Home() {
     return ( 
@@ -26,7 +28,9 @@ function Home() {
 
         <Work/>
 
-        
+        <Recent/>
+
+        <ThreeA/>
       
       </div>
       
