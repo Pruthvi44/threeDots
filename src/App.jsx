@@ -1,11 +1,12 @@
 import './App.css';
 import Home from './Components/Home/Home'
-import Slider from './Components/Home/Slider';
 import Header from './Components/Header';
 import About from '../src/Components/About/About'
-import AboutExtend from './Components/About/AboutExtend';
 import Footer from './Components/Footer';
 import FixNav from './Components/FixNav';
+import MainWork from './Components/Work/MainWork'
+import Accolades from './Components/Accolades/Accolades';
+import Contact from './Components/Contact/Contact';
 function App() {
   return (
     <>
@@ -13,12 +14,18 @@ function App() {
         <Header/>
         </div>
         <FixNav/>
-      <Home/>
+
+        <Contact/>
+
+        {/* <Accolades/> */}
+       {/* <MainWork/> */}
+
+      {/* <Home/> */}
 
       {/* <About /> */}
-      <div className='footer'>
+      {/* <div className='footer'>
         <Footer/>
-      </div>
+      </div> */}
     </>
   );
 }

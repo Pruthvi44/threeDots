@@ -10,7 +10,6 @@ const SliderImg = [
     {
         imgURL: `${img1}`,
         imgAlt: "trial",
-        imgContent: "img1"
     },
     {
         imgURL: `${img2}`,

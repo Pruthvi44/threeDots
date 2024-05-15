@@ -1,0 +1,29 @@
+.acc-main{
+    margin-left: 90px;
+}
+.acc-back img{
+    width: 100%;
+    height: 650px;
+}
+.acc-back{
+    position: relative;
+}
+.text-over{
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.text-over h4{
+    font-size: 19px;
+    font-weight: 400;
+}
+.text-over p{
+    font-size: 50px;
+    line-height: 1px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+

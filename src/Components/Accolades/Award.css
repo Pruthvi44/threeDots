@@ -1,0 +1,63 @@
+.award-main{
+    text-align: center;
+    margin-top: 7%;
+}
+.award-inner p{
+    font-size: 15px;
+    color: rgb(180, 177, 177);
+}
+.award-inner h2{
+    font-size: 28px;
+    font-weight: 600;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.award-inner hr{
+    width: 100px;
+    background-color: orange;
+    height: 1px;
+    border: none;
+}
+.award-full-container{
+    margin-left: 7%;
+}
+.award-container {
+    position: relative;
+    width: 200px;
+    float: left;
+    margin: 15px;
+  }
+  
+  .award-image {
+    display: block;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .award-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #404141;
+    overflow: hidden;
+    width: 200px;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .award-container:hover .award-overlay {
+    height: 100%;
+    opacity: 90%;
+  }
+  
+  .award-text {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }

@@ -57,7 +57,6 @@ function Slider({ children }) {
       onMouseEnter={AutoPlayStop}
       onMouseLeave={AutoPlayStart}
     >
-
       {children.map((item, index) => {
         return (
           <div
