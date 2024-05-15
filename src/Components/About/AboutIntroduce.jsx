@@ -19,9 +19,7 @@ function AboutIntroduce(){
             <h2>Managing Director</h2>
         </div>
 
-        {/* <div className="frame">
-            <img src={image9} alt="Image 3" className="image" />
-        </div> */}
+        
 
         </>
     )

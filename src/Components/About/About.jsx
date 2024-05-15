@@ -6,6 +6,10 @@ import BackData2 from './BackData2';
 import AboutExtend from './AboutExtend';
 import AboutProcess from './AboutProcess';
 import AboutIntroduce from './AboutIntroduce';
+import AboutIntroduce2 from './AboutIntroduce2';
+import AboutIntroduce3 from './AboutIntroduce3';
+import AboutTeam from './AboutTeam';
+import AboutSneak from './AboutSneak';
 function About(){
     return(
         <>
@@ -27,6 +31,10 @@ function About(){
                     <AboutExtend />
                     <AboutProcess />
                     <AboutIntroduce />
+                    <AboutIntroduce2 />
+                    <AboutIntroduce3 />
+                    <AboutTeam />
+                    <AboutSneak />
                    
         </div>
         </> 

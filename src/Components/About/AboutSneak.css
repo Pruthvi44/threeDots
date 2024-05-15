@@ -1,0 +1,11 @@
+.AboutSneak-Container hr{
+    width: 15%;
+    float: left;
+    height: 2px;
+    background-color: #FECC00;
+    margin-top: -2%;
+}
+#AboutSneak-img{
+    height: 80%;
+    width: 100%;
+}
