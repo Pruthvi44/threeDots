@@ -1,0 +1,27 @@
+.main-work{
+    margin-left: 90px;
+}
+.worktitl{
+    text-align: center;
+    position: relative;
+}
+.worktitl img{
+    height: 500px;
+    width: 100%;
+    filter: brightness(75%);
+}
+.img-text {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.img-text h1{
+    font-size: 50px;
+    color: white;
+}
+.img-text p{
+    margin-top: -30px;
+    font-size: 17px;
+    color: rgb(202, 198, 198);
+}

@@ -6,10 +6,10 @@ function AboutSneak(){
         <div className='AboutSneak-Container'>
 
             <img src={image9} alt="" id='AboutSneak-img'/>
-            <h2>3 DOTS DESIGN PVT. LTD. SQUAD</h2>
-            <h1>04</h1><hr />
+            <h2>SNEAK PEEK INTO OUR OFFICE</h2>
+            <hr />
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/HbeNI-tsr9g?si=415cmCycg-YA3lqn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/HbeNI-tsr9g?si=415cmCycg-YA3lqn" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id='AboutSneak-Frame'></iframe>
 
         </div>
         </>

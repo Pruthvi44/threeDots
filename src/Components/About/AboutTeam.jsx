@@ -4,12 +4,12 @@ function AboutTeam(){
         
     return(
         <>
-        <div className='BackData2-mid-data'>
+        <div className='About-Team-mid-data'>
             <h1>04</h1><hr />
             <h2>3 DOTS DESIGN PVT. LTD. SQUAD</h2>
-            <img src={logo} alt="" />
+            <img src={logo} alt="" id='About-Team-ig'/>
 
-            <div className='Backdata2-mid-content'>
+            <div className='About-Team-mid-content'>
             <h3>Over the years we have built teams of seasoned professionals in Pune & Hyderabad that have the ability to create clutter breaking Advertising for clients.</h3>
 
             <h4>The 3 Dots Design Pvt. Ltd. squad has the ability to empower seamless 360 communication solutions for all our clients, across categories. The team takes pride in partnering with the clients in their challenges and glory.</h4>

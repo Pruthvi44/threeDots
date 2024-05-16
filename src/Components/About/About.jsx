@@ -10,6 +10,7 @@ import AboutIntroduce2 from './AboutIntroduce2';
 import AboutIntroduce3 from './AboutIntroduce3';
 import AboutTeam from './AboutTeam';
 import AboutSneak from './AboutSneak';
+import AboutAdvantage from './AboutAdvantage';
 function About(){
     return(
         <>
@@ -35,6 +36,7 @@ function About(){
                     <AboutIntroduce3 />
                     <AboutTeam />
                     <AboutSneak />
+                    <AboutAdvantage />
                    
         </div>
         </> 

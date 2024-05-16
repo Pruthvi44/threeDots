@@ -1,0 +1,16 @@
+.newlocation{
+    margin-left: 90px;
+}
+.newLoc h1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 5%;
+}
+.on-map iframe{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 450px;
+    height: 400px;
+    border: none;
+}

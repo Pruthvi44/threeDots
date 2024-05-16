@@ -7,6 +7,7 @@ import Achievment from './Achievment';
 import Work from './Work';
 import Recent from './Recent';
 import ThreeA from './ThreeA';
+import Demo from './Demo';
 
 function Home() {
     return ( 
@@ -18,6 +19,7 @@ function Home() {
           return <img key={index} src={image.imgURL} alt={image.imgAlt} />;
         })}
       </Slider>
+
 
       </div>
       <CreativeAgncy/>
@@ -31,6 +33,9 @@ function Home() {
         <Recent/>
 
         <ThreeA/>
+
+
+        
       
       </div>
       

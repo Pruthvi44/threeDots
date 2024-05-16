@@ -1,5 +1,10 @@
-
-.BackData2-mid-data h1{
+#About-Team-ig{
+    margin-left: 30%;
+    height: 40%;
+    width: 30%;
+    margin-top: -25%;
+}
+.About-Team-mid-data h1{
     margin-left: 5px;
     font-size: 48px;
     font-family: Montserrat, sans-serif;
@@ -7,7 +12,7 @@
     margin: 18px;
     margin-top: 10%;
 }
-.BackData2-mid-data hr{
+.About-Team-mid-data hr{
     width: 15%;
     float: left;
     height: 2px;
@@ -15,23 +20,24 @@
     margin-top: -2%;
     border: #FECC00;
 }
-.BackData2-mid-data h2{
+.About-Team-mid-data h2{
     font-family: Montserrat, sans-serif;
     font-size: 32px;
     width: 25%;
     margin-top: -0%;
 }
-.BackData2-mid-data{
+.About-Team-mid-data{
     padding: 70px;
     background-color: #f7f7f7;
-    margin-top: 4%;
+    margin-top: 10%;
 }
-.Backdata2-mid-content{
+.About-Team-mid-content{
     float: right;
     width: 35%;
     margin-top: -20%;
+    position: static;
 }
-.Backdata2-mid-content h3{
+.About-Team-mid-content h3{
     color: #232323;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
@@ -39,14 +45,14 @@
     margin-bottom: 5%;
     font-weight: 800;
 }
-.Backdata2-mid-content h2{
+.About-Team-mid-content h2{
     color: #6f6f6f;
     font-size: 14px;
     width: 90%;
     font-weight: 500;
     letter-spacing: 1px;
 }
-.Backdata2-mid-content h4{
+.About-Team-mid-content h4{
     color: #6f6f6f;
     font-size: 14px;
     width:85%;
