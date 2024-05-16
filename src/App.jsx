@@ -7,6 +7,7 @@ import FixNav from './Components/FixNav';
 import MainWork from './Components/Work/MainWork'
 import Accolades from './Components/Accolades/Accolades';
 import Contact from './Components/Contact/Contact';
+import Hydrabad from './Components/Hydrabad';
 function App() {
   return (
     <>
@@ -15,7 +16,9 @@ function App() {
         </div>
         <FixNav/>
 
-        <Contact/>
+        <Hydrabad/>
+
+        {/* <Contact/> */}
 
         {/* <Accolades/> */}
        {/* <MainWork/> */}
@@ -23,9 +26,9 @@ function App() {
       {/* <Home/> */}
 
       {/* <About /> */}
-      {/* <div className='footer'>
+      <div className='footer'>
         <Footer/>
-      </div> */}
+      </div>
     </>
   );
 }

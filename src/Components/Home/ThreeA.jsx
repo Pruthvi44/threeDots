@@ -9,6 +9,9 @@ import a7 from '../../Assets/images/Homeimg/ad7.png';
 import a8 from '../../Assets/images/Homeimg/ad8.png';
 import a9 from '../../Assets/images/Homeimg/ad9.png';
 import a10 from '../../Assets/images/Homeimg/ad10.png';
+import f1 from '../../Assets/images/footer/f1.png';
+import f2 from '../../Assets/images/footer/f2.png';
+import f3 from '../../Assets/images/footer/f3.png';
 
 
 function ThreeA() {
@@ -42,6 +45,87 @@ function ThreeA() {
             <img src={a10} alt="" />
             </marquee>
         </div>
+
+        <div className="footer-main">
+        <div className="foot-titl">
+          <h4>We invite you for a productive discussion.</h4>
+          <h2>
+            Let's build a long-term strategy for ‘creating continuous
+            communication’
+          </h2>
+        </div>
+        <div className="foot-icon">
+          <table>
+            <tr>
+              <td>
+                <div className="foot-row1">
+                  <img src={f1} />
+                  <h4>Head Office - Pune</h4>
+                  <p>
+                    Amalanand Bungalow, Plot No. 14 Survey No. 3023/14
+                    Bhambhurda, Mangalwadi Society S B Road, Haveli, Pune,
+                    Maharashtra 411016
+                  </p>
+                  <hr />
+                </div>
+              </td>
+              <td>
+                <div className="foot-row1">
+                  <img src={f1} />
+                  <h4>Branch Office - Hyderabad</h4>
+                  <p>
+                    Flat.no.202 Hyderguda, Old MLA Quarters Rd, Opp. Fabric Care
+                    Dry Cleaners, Hyderabad, Telangana 500029
+                  </p>
+                  <hr />
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div className="foot-row1">
+                  <img src={f2} />
+                  <h4>General Enquiries</h4>
+                  <p>pune@3dotsdesign.in</p>
+                  <p>contact@3dotsdesign.in</p>
+                  <hr />
+                </div>
+              </td>
+              <td>
+                <div className="foot-row1">
+                  <img src={f2} />
+                  <h4>General Enquiries</h4>
+                  <p>hyderabad@3dotsdesign.in</p>
+                  <p>contact@3dotsdesign.in</p>
+                  <hr />
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div className="foot-row1">
+                  <img src={f3} />
+                  <h4>Business Phone</h4>
+                  <p>+91 9511696411</p>
+                  <p>+91 20 2566 5266</p>
+                  
+                </div>
+              </td>
+              <td>
+                <div className="foot-row1">
+                  <img src={f3} />
+                  <h4>Business Phone</h4>
+                  <p>+91 9511696411</p>
+                  <p>+91 20 2566 5266</p>
+                  
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
       </div>
     </>
   );
