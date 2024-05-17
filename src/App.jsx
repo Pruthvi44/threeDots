@@ -7,25 +7,31 @@ import FixNav from './Components/FixNav';
 import MainWork from './Components/Work/MainWork'
 import Accolades from './Components/Accolades/Accolades';
 import Contact from './Components/Contact/Contact';
+import Hyderabad from './Components/Hyderabad/Hyderabad';
+import Career from './Components/Career';
 function App() {
   return (
     <>
     <div className='header'>
         <Header/>
         </div>
-        {/* <FixNav/>
+        <FixNav/>
 
-        <Contact/> */}
+        {/* <Contact/> */}
 
         {/* <Accolades/> */}
        {/* <MainWork/> */}
 
       {/* <Home/> */}
 
-      <About />
+      {/* <About /> */}
       {/* <div className='footer'>
         <Footer/>
       </div> */}
+
+      {/* <Hyderabad /> */}
+
+      <Career />
     </>
   );
 }
