@@ -8,7 +8,7 @@ import MainWork from './Components/Work/MainWork'
 import Accolades from './Components/Accolades/Accolades';
 import Contact from './Components/Contact/Contact';
 import Hyderabad from './Components/Hyderabad/Hyderabad';
-import Career from './Components/Career';
+import Career from './Components/Hyderabad/Career/Career';
 function App() {
   return (
     <>

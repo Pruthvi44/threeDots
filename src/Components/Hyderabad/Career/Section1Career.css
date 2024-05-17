@@ -1,0 +1,55 @@
+.Career-bottom-content{
+    background-color: #f7f7f7;
+    margin-top: -10%;
+    position: relative;
+    text-align: center;
+}
+.Career-bottom-content h1{
+    color: #232323;
+    font-size: 32px;
+    font-family: Montserrat, sans-serif;
+    padding-top: 5%;
+}
+.Career-bottom-content h2{
+    color: #6f6f6f;
+    font-size: 12px;
+    font-family: Montserrat, sans-serif;
+    
+}
+.Career-bottom-content h3{
+    font-size: 14px;
+    color: #6f6f6f;
+    font-family: 'Roboto', sans-serif;
+    padding-top: -10%;
+    padding-left: 12%;
+    padding-right: 12%;
+    margin-bottom: 10%;
+
+
+}
+.Career-bottom-content h4{
+    font-size: 14px;
+    color: #6f6f6f;
+    font-family: Montserrat, sans-serif;
+}
+.Career-bottom-content h5{
+    font-size: 16px;
+    color: #6f6f6f;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 3%;
+    padding-bottom: 10%;
+
+}
+#Career-icon{
+    
+}
+/*  font-family: Montserrat, sans-serif;*/
+.Career-bottom-content hr{
+    width: 10%;
+    height: 1px;
+    background-color: #FECC00;
+    margin-top: 0%;
+    position: relative;
+    border: #FECC00;
+    margin-bottom: 2%;
+}

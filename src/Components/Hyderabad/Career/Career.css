@@ -1,0 +1,20 @@
+.Career-Container{
+    margin-left: 90px;
+}
+#Career-img{
+    width: 100%;
+}
+.Career-mid-content h1{
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    font-weight: bolder;
+}
+.Career-mid-content{
+    background-color: #FFBE00D9;
+    position: relative;
+    float: right;
+    margin-top: -20%;
+    padding: 30px 100px;
+}
+
