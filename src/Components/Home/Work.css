@@ -1,5 +1,5 @@
 .work-main{
-    margin-top: 5%;
+    margin-top: 8rem;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -30,25 +30,25 @@
     
 }
 .image { 
-    width: 335px;
-    height: 260px;
+    width: 22.5rem;
+    height: 17rem;
     padding: 10px;
 }
 .overlay {
     position: absolute; 
-    top: 10px;  
-    bottom: 10px;  
-    left: 10px;  
-    right: 10px;  
+    top: 0.6rem;  
+    bottom: 0.9rem ;  
+    left: 0.6rem;  
+    right: 0.6rem;  
     height: auto;  
     width: auto;  
     opacity: 0;  
     transition: .5s ease;  
 }
 .overlay hr{
-    margin-top: 50%;
-    width: 110px;
-    margin-left:20px;
+    margin-top: 11rem;
+    width: 8rem;
+    margin-left:1rem;
     height: 1px;
     background-color: black;
 }
@@ -63,73 +63,12 @@
     font-size: 15px;  
     text-transform: uppercase;
     position: absolute;  
-    top: 77%;  
-    left: 37%;  
+    top: 12.5rem;  
+    left: 8rem;  
     -webkit-transform: translate(-50%, -50%);  
     -ms-transform: translate(-50%, -50%);  
     transform: translate(-50%, -50%);  
     text-align: left;
-}
-
-.new{
-    margin-left: 360px;
-    margin-right: 360px;
-    margin-top: -26%;
-}
-.big-container {
-    position: relative; 
-    
-}
-.big-image { 
-    width: 335px;
-    height: 550px;
-    padding: 10px;
-}
-.big-overlay {
-    position: absolute; 
-    top: 10px;  
-    bottom: 10px;  
-    left: 10px;  
-    right: 10px;  
-    height: 550px;  
-    width: 335px;  
-    opacity: 0;  
-    transition: .5s ease;  
-}
-.big-overlay hr{
-    margin-top: 130%;
-    width: 110px;
-    margin-left:20px;
-    height: 1px;
-    background-color: black;
-}
-.big-container:hover .big-overlay {
-      opacity: 95%;
-      background-color: orange;
-      transition:ease-out;
-    }
-.big-text {  
-    color: white;  
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;  
-    text-transform: uppercase;
-    position: absolute;  
-    top: 85%;  
-    left:20%;  
-    -webkit-transform: translate(-50%, -50%);  
-    -ms-transform: translate(-50%, -50%);  
-    transform: translate(-50%, -50%);  
-    text-align: center;
-}
-.ntwo{
-    margin-top: -239%;
-}
-.work-img-cont-slast{
-    margin-left: 10px;
-}
-.work-img-cont-last{
-    margin-left: 720px;
-    margin-top: -26%;
 }
 
 #work-btn{

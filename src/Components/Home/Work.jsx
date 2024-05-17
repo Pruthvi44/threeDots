@@ -46,14 +46,14 @@ function Work() {
           <img src={w2} alt="Avatar" className="image" />
           <div className="overlay">
           <hr/>
-            <div style={{left:"100px"}} className="text">Mangalam Landmarks</div>
+            <div className="text">Mangalam Landmarks</div>
           </div>
         </div>
         <div className="container">
           <img src={w4} alt="Avatar" className="image" />
           <div className="overlay">
           <hr/>
-            <div style={{left:"70px"}} className="text">rgs reality</div>
+            <div className="text">rgs reality</div>
           </div>
         </div>
         </div>
@@ -63,21 +63,21 @@ function Work() {
           <img src={w8} alt="Avatar" className="image" />
           <div className="overlay">
           <hr/>
-            <div style={{left:"70px"}} className="text">exer energy</div>
+            <div className="text">exer energy</div>
           </div>
         </div>
         <div className="container">
           <img src={w6} alt="Avatar" className="image" />
           <div className="overlay">
           <hr/>
-            <div style={{left:"50px"}} className="text">naptrap</div>
+            <div className="text">naptrap</div>
           </div>
         </div>
         <div className="container">
           <img src={w5} alt="Avatar" className="image" />
           <div className="overlay">
           <hr/>
-            <div style={{left:"60px"}} className="text">happy nest</div>
+            <div className="text">happy nest</div>
           </div>
         </div>
         </div>
@@ -87,45 +87,22 @@ function Work() {
           <img src={w7} alt="Avatar" className="image" />
           <div className="overlay">
           <hr/>
-            <div style={{left:"80px"}} className="text">windsor county</div>
+            <div className="text">windsor county</div>
           </div>
         </div>
         <div className="container">
           <img src={w8} alt="Avatar" className="image" />
           <div className="overlay">
           <hr/>
-            <div style={{left:"125px"}} className="text">pushpa international school</div>
+            <div className="text">pushpa international school</div>
           </div>
         </div>
-        </div>
-
-        <div className="work-img-cont">
         <div className="container">
-          <img src={w9} alt="Avatar" className="image" />
+          <img src={w14} alt="Avatar" className="image" />
           <div className="overlay">
           <hr/>
-            <div style={{left:"60px"}} className="text">thinkitive</div>
+            <div className="text">femcity hospitals</div>
           </div>
-        </div>
-        </div>
-
-        
-        <div className="new">
-        <div className="big-container">
-          <img src={w11} alt="Avatar" className="big-image" />
-          <div className="big-overlay">
-          <hr/>
-            <div className="big-text">life 360</div>
-          </div>
-        </div>
-        <div className="ntwo">
-        <div className="big-container" style={{left:"355px"}}>
-          <img src={w12} alt="Avatar" className="big-image" />
-          <div className="big-overlay">
-          <hr/>
-            <div style={{left:"100px"}} className="big-text">7 plumeria drive</div>
-          </div>
-        </div>
         </div>
         </div>
 
@@ -137,27 +114,22 @@ function Work() {
             <div style={{left:"80px"}} className="text">grande view 7</div>
           </div>
         </div>
+        <div className="container">
+          <img src={w9} alt="Avatar" className="image" />
+          <div className="overlay">
+          <hr/>
+            <div style={{left:"60px"}} className="text">thinkitive</div>
+          </div>
         </div>
-
-        <div className="work-img-cont-last">
         <div className="container">
           <img src={w13} alt="Avatar" className="image" />
           <div className="overlay">
           <hr/>
-            <div style={{left:"80px"}} className="text">water's square</div>
+            <div className="text">water's square</div>
           </div>
         </div>
         </div>
 
-        <div className="work-img-cont">
-        <div className="container" style={{left:"34%"}}>
-          <img src={w14} alt="Avatar" className="image" />
-          <div className="overlay">
-          <hr/>
-            <div style={{left:"90px"}} className="text">femcity hospitals</div>
-          </div>
-        </div>
-        </div>
 
         <button id="work-btn"><Link id="wbtn" to="/work">VIEW MORE WORK</Link></button>
 
