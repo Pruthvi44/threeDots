@@ -1,0 +1,26 @@
+.AboutSneak-Container{
+    text-align: center;
+}
+.AboutSneak-Container hr{
+    width: 10%;
+    height: 2px;
+    background-color: #FECC00;
+    margin-top: 0%;
+    position: relative;
+    border: #FECC00;
+}
+#AboutSneak-img{
+    height: 700px;
+    width: 100%;
+}
+.AboutSneak-Container h2{
+    margin-top: -60%;
+    color: #ffffff;
+    font-size: 32px;
+    font-family: Montserrat, sans-serif;
+}
+#AboutSneak-Frame{
+    width: 900px;
+    border: none;
+    height: 550px;
+}

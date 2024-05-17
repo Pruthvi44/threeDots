@@ -12,7 +12,7 @@
 .menu{
     background-color: black;
     color: white;
-    height: 100vh;
+    height: 96vh;
     width: 100%;
     font-family: Roboto, sans-serif;
 }
@@ -22,14 +22,18 @@
     text-align: center;
 }
 .nav-menu td{
+    text-decoration: none;
     padding-left: 50px;
     padding-top: 50px;
 }
-.nav-menu td:hover{
-    color: rgb(248, 181, 12);
+#link{
+    text-decoration: none;
+    color: white;
+}
+#link:hover{
     text-decoration: underline;
-    transition: 0.3s;
-
+    color: orange;
+    transition:0.3s;
 }
 #menu-btn{
     color: rgb(105, 106, 105);

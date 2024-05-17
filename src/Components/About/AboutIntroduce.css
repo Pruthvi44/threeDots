@@ -36,24 +36,6 @@
 }
 .AboutIntroduce-mid-content{
     margin-left: 50%;
-    margin-top: -35%;
+    margin-top: -34%;
     
 }
-/* .frame {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 10px;
-    width: 600px;
-    height: 700px;
-    padding: 10px;
-    background-color: #fff;
-    margin-top: 50%;
-  }
-  
-  .image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    
-  } */

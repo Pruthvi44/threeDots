@@ -13,6 +13,7 @@ import w11 from '../../Assets/images/Homeimg/coll-10.jpg';
 import w12 from '../../Assets/images/Homeimg/coll-11.jpg';
 import w13 from '../../Assets/images/Homeimg/coll-12.avif';
 import w14 from '../../Assets/images/Homeimg/coll-13.jpg';
+import { Link } from "react-router-dom";
 
 
 function Work() {
@@ -158,7 +159,7 @@ function Work() {
         </div>
         </div>
 
-        <button id="work-btn">VIEW MORE WORK</button>
+        <button id="work-btn"><Link id="wbtn" to="/work">VIEW MORE WORK</Link></button>
 
       </div>
     </>

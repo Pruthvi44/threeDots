@@ -6,6 +6,9 @@ import Button from "@mui/material/Button";
 import List from "@mui/material/List";
 import DensitySmallIcon from "@mui/icons-material/DensitySmall";
 import logoimg from "../Assets/images/Homeimg/logo-icon-fill.png";
+import { Link } from "react-router-dom";
+
+
 
 export default function Header() {
   const [state, setState] = React.useState({
@@ -33,37 +36,39 @@ export default function Header() {
       <List className="menu">
         <table className="nav-menu">
           <tr>
-            <td>About</td>
-            <td>Accolades</td>
-            <td>Hydrabad</td>
+            <td ><Link id="link" to="/about">About</Link></td>
+            <td><Link id="link" to="/accolades">Accolades</Link></td>
+            <td><Link id="link" to="/hydrabad">Hydrabad</Link></td>
           </tr>
           <tr>
-            <td>Work</td>
+            <td><Link id="link" to="/work">Work</Link></td>
             <td>Digital</td>
-            <td>Blog</td>
+            <td><Link id="link" to="/blog">Blog</Link></td>
           </tr>
           <tr>
             <td>Solution</td>
-            <td>Pune</td>
+           <td> <Link id="link" to="/">Pune</Link></td>
             <td>Career</td>
           </tr>
           <tr>
             <td></td>
-            <td>Contact</td>
+            <td><Link id="link" to="/contact">Contact</Link></td>
           </tr>
         </table>
+        
       </List>
+
     </Box>
   );
 
   return (
     <>
       <div className="left-block">
-        <img src={logoimg} />
+      <Link to="/"><img src={logoimg} /></Link>
         {["left"].map((anchor) => (
           <React.Fragment key={anchor}>
             <Button id="menu-btn" onClick={toggleDrawer(anchor, true)}>
-              <DensitySmallIcon fontSize="x15" />
+             <DensitySmallIcon fontSize="x15" />
             </Button>
 
             <Drawer

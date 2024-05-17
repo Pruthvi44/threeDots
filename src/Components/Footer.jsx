@@ -4,22 +4,22 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import YouTubeIcon from '@mui/icons-material/YouTube';
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <>
       <div className="footer-last">
         <ul>
-          <li>Home</li>
-          <li>About</li>
+          <li><Link id="fid" to="/">Home</Link></li>
+          <li><Link id="fid" to="/about">About</Link></li>
           <li>Solution</li>
-          <li>Work</li>
-          <li>Hydrabad</li>
-          <li>Pune</li>
+          <li><Link id="fid" to="/work">Work</Link></li>
+          <li><Link id="fid" to="/hydrabad">Hydrabad</Link></li>
+          <li><Link id="fid" to="/">Pune</Link></li>
           <li>Careers</li>
-          <li>Blog</li>
-          <li>Contact</li>
+          <li><Link id="fid" to="/blog">Blog</Link></li>
+          <li><Link id="fid" to="/contact">Contact</Link></li>
           <li>Privacy Policy</li>
           <li>T & C</li>
           <li>Refund Policy</li>

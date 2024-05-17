@@ -147,4 +147,11 @@
     color: white;
     transition: 0.4s;
 }
+#wbtn{
+    text-decoration: none;
+    color: black;
+}
+#wbtn:hover{
+    color: white;
+}
 
