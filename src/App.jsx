@@ -8,12 +8,15 @@ import Accolades from './Components/Accolades/Accolades';
 import MainWork from './Components/Work/MainWork';
 import Blog from './Components/Blog/Blog';
 import Contact from './Components/Contact/Contact';
+import Hyderabad from './Components/Hyderabad/Hyderabad';
+import Demo from './Components/Home/Demo';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 function App() {
   return (
     <>
+   
     <div className='header'>
         <Header/>
         </div>
@@ -24,7 +27,7 @@ function App() {
             <Route path="/" element={<Home/>}/>
             <Route path="/about" element={<About/>} />
             <Route path="/accolades" element={<Accolades/>}/>
-            {/* <Route path="hydrabad" element={ <Hydrabad/> }/> */}
+            <Route path="hydrabad" element={ <Hyderabad/> }/>
             <Route path="work" element={<MainWork/>}/>
             <Route path="blog" element={<Blog/>}/>
             <Route path="contact" element= {<Contact/>} />
