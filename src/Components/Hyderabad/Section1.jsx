@@ -11,7 +11,7 @@ function Section1(){
 
             <h3>Standing out from the crowd of mediocrity when every brand is focusing on creativity, 3 Dots Design Pvt. Ltd. is one of the top advertising agencies in Hyderabad that will hit the bull’s eye of your business needs with integrated marketing and branding solutions. 3 Dots Design is a full-service advertising agency in Hyderabad that addresses your every communication mandates. At 3 Dots Design Pvt. Ltd., we offer the best marketing communications, branding solutions and creative designs that set your brand apart. At 3 Dots Design Pvt. Ltd., we can call it our superpower to optimize every advertising rupee of our clients by being media neutral. It enables us to be more agile and streamline the marketing communications process with ease.</h3>
 
-            <button>VIEW OUR WORK</button>
+            <button id="hy-btn">VIEW OUR WORK</button>
         </div>
         </>
     )

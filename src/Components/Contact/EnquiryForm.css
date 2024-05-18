@@ -1,17 +1,89 @@
-.enquiry-form{
+.main-form{
     margin-left: 90px;
     background-color: #f7f7f7;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 8%;
 }
-.titlinfo{
-    padding: 3%;
+.textarea{
+    padding-top: 30px;
 }
-.titlinfo h5{
-    color: rgb(146, 146, 146);
+.textarea p{
+    font-size: 15px;
+    color: rgb(160, 163, 165);
+}
+.textarea h2{
+    line-height: 1px;
+    font-size: 29px;
+    color: #565353;
+}
+.start-form{
+    margin: 5%;
+}
+.start-form .i1{
+    font-size: 18px;
+    height: 22px;
+    width: 400px;
+    padding: 10px;
+    margin: 1%;
+}
+.start-form .editarea{
+    font-size: 18px;
+    height: 22px;
+    width: 300px;
+    padding: 10px;
+    margin: 1%;
+}
+#otp-btn{
+    height:35px;
+    width: 100px;
+    padding: 10px;
     font-size: 13px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8%;
 }
-.titlinfo h2{
-    font-size: 24px;
-    color: rgb(113, 108, 108);
+#otp-btn:hover{
+    background-color: white;
+    color: black;
+    border: black solid;
+    transition: 0.3s;
+}
+.start-form .s1{
+    color: rgb(139, 143, 145);
+    font-size: 18px;
+    height: 45px;
+    width: 420px;
+    margin: 1%;
+}
+#send-btn{
+    margin-top: 5%;
+    height:40px;
+    width: 180px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(255, 184, 52);
+    color: white;
+    border: none;
+    margin-bottom: 7%;
+}
+#send-btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: orange;
+    border: orange solid;
+    transition: 0.4s;
+}
+.end h2{
+    margin-left: 90px;
+    text-align: center;
+    color: #8d8787;
+    font-size: 30px;
+}
+.end a{
+    text-decoration: none;
+}
+.end a h2:hover{
+    color: black;
+    transition: 0.3s;
+    text-decoration: underline;
 }

@@ -1,31 +1,33 @@
+.AboutAdvantage-Container{
+    text-align: center;
+}
+
 .AboutAdvantage-Container h1{
     color: #FECC00;
     font-size: 32px;
     font-family: Montserrat, sans-serif;
     margin-top: 10%;
-    margin-left: 10%;
 }
 .AboutAdvantage-Container h2{
     color: #6f6f6f;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
-    text-align: center;
-    width: 65%;
     font-weight: 700;
+    padding-left: 250px;
+    padding-right: 250px;
+    line-height: 30px;
+    margin-bottom: 6%;
 }
 .AboutAdvantage-Container h3{
     color: #6f6f6f;
     font-size: 25px;
     font-family: 'Roboto', sans-serif;
-    margin-left: 18%;
 }
 .AboutAdvantage-Container h4{
+    padding-left: 280px;
+    padding-right: 280px;
     color: #6f6f6f;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
-    margin-left: -5%;
-}
-.AboutAdvantage-Container {
-    margin-left: 30%;
-    margin-bottom: 10%;
+    margin-bottom: 7%;
 }

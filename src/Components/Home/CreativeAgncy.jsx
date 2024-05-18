@@ -1,5 +1,6 @@
 import './CreativeAgncy.css';
 import pencilimg from '../../Assets/images/Homeimg/pencil.jpg';
+import { Link } from 'react-router-dom';
 function CreativeAgncy () {
     return ( 
         <>
@@ -19,7 +20,7 @@ function CreativeAgncy () {
                 <p className='second'>Being media neutral not only helps us optimize every Advertising
                     Rupee that the clients spend but also enables us to add more agility to the
                     clients' MarCom process.</p>
-                <button>ABOUT COMPANY</button>
+                <button><Link id="abbtn" to="/about">ABOUT COMPANY</Link></button>
 
 
             </div>

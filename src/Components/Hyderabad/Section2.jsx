@@ -1,11 +1,10 @@
-import './Section2.css'
-import image1 from '../../Assets/images/Hydarabad_img/2.png'
-import image2 from '../../Assets/images/Hydarabad_img/3.png'
-import image3 from '../../Assets/images/Hydarabad_img/4.png'
-import image4 from '../../Assets/images/Hydarabad_img/5.png'
-import image5 from '../../Assets/images/Hydarabad_img/6.png'
-import image6 from '../../Assets/images/Hydarabad_img/7.png'
-import image7 from '../../Assets/images/Hydarabad_img/7.png'
+import './Section2.css';
+import image1 from '../../Assets/images/Hydarabad_img/2.png';
+import image2 from '../../Assets/images/Hydarabad_img/3.png';
+import image3 from '../../Assets/images/Hydarabad_img/4.png';
+import image4 from '../../Assets/images/Hydarabad_img/5.png';
+import image5 from '../../Assets/images/Hydarabad_img/6.png';
+import image7 from '../../Assets/images/Hydarabad_img/7.png';
 function Section2(){
     return(
         <>

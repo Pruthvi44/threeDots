@@ -26,10 +26,37 @@
     width: 300px;
     height: 330px;
     margin-left: 15%;
-}
-.card1:hover{
-    border: 2px solid orange;
-    transition: 0.3s;
+    position: relative;
+    
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        transition: .3s ease-out;
+    }
+    
+    &::before {
+        top: -15px;
+        left: -10px;
+        border-top: 3px solid #ffcc00;
+        border-left: 3px solid #ffcc00;
+    }
+    
+    &::after {
+        right: -10px;
+        bottom: 14px;
+        border-right: 3px solid #ffcc00;
+        border-bottom: 3px solid #ffcc00;
+    }
+    
+    &:hover::before,
+    &:hover::after {
+        transition: 0.6s;
+        width: calc(105% );
+        height: calc(99% );
+    }
 }
 
 .card1 img{

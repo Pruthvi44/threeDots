@@ -1,3 +1,6 @@
+.AboutSneak-Container{
+    text-align: center;
+}
 .AboutSneak-Container hr{
     width: 10%;
     height: 2px;
@@ -5,24 +8,19 @@
     margin-top: 0%;
     position: relative;
     border: #FECC00;
-    margin-left: 42%;
-    /* margin-bottom: 5%; */
 }
 #AboutSneak-img{
-    height: 80%;
+    height: 700px;
     width: 100%;
 }
 .AboutSneak-Container h2{
-    margin-top: -55%;
+    margin-top: -60%;
     color: #ffffff;
     font-size: 32px;
     font-family: Montserrat, sans-serif;
-    margin-left: 27%;
 }
 #AboutSneak-Frame{
-    width: 1000px;
-    margin-left: 6%;
+    width: 900px;
     border: none;
     height: 550px;
-    margin-top: -0%;
 }

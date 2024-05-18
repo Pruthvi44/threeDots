@@ -1,5 +1,5 @@
-import './Career.css'
-import image1 from '../../../Assets/images/Career_img/careers.jpg'
+import './Career.css';
+import image1 from '../../Assets/images/Career_img/careers.jpg';
 import Section1Career from './Section1Career';
 function Career(){
     return(

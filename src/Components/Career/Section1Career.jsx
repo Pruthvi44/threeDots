@@ -1,5 +1,5 @@
 import './Section1Career.css'
-import image2 from '../../../Assets/images/Career_img/output-onlinepngtools.png'
+import image2 from '../../Assets/images/Career_img/output-onlinepngtools.png'
 function Section1Career(){
     return(
         <>
