@@ -2,13 +2,14 @@ import "./Digital.css";
 import image1 from "../../Assets/images/Digial_img/1.jpg";
 import image2 from "../../Assets/images/Digial_img/2.jpg";
 import image3 from "../../Assets/images/Digial_img/3.jpg";
+import Section1 from "../Digital/Section1";
 function Digital() {
   return (
     <>
       <div className="Digital-main-content">
         <div
           id="carouselExampleIndicators"
-          className="carousel-inner"
+          className="carousel"
           data-ride="carousel"
         >
           <ol className="carousel-indicators">
@@ -56,6 +57,8 @@ function Digital() {
             <span className="sr-only">Next</span>
           </a>
         </div>
+
+        <Section1 />
       </div>
     </>
   );

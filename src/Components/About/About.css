@@ -1,17 +1,18 @@
 #section1{
-    height: 600px;
-    width: 100%;
-    height: auto;
+    height: 47rem;
+    width: 72rem;
     filter: brightness(50%);
-    
 }
 .About-main-content{
-    margin-left: 90px;
+    margin-left: 5.625rem;
 }
 .About_img-merge-data{
     float: right;
     background-color: rgba(255, 190, 0, .85); 
     opacity: 95%;
+    margin-top: -29rem;
+    width: 29rem;
+    padding: 4rem;
     margin-top: -37%;
     width: 42%;
     padding: 5%;   
@@ -26,19 +27,19 @@
 }
 .About_img-merge-data h3{
     text-align: justify;
-    margin-top: 5%;
+    margin-top: 2rem;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 100;
     color: #ffffff;
-    width: 70%;
+    width: 20rem;
     letter-spacing: 0.5px;
 }
 .About_img-merge-data hr{
     border: none;
     background-color: white; 
     height: 2px;
-    width: 40%;
+    width: 15rem;
     float: left;
-    margin-top: -2%;
+    margin-top: -0.5rem;
 }
