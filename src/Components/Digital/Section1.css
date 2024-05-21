@@ -1,5 +1,6 @@
 .Digital-section-mainContent {
     background-color: #f7f7f7;
+    padding-bottom: 10%;
 }
 .Digital-section-mainContent h1{
     text-align: center;
@@ -7,8 +8,59 @@
     color: #1e1e1e;
     font-size: 36px;
     font-family: poppins;
+    margin-bottom: 3%;
 }
 .Digital-section-mainContent h2{
     text-align: center;
     font-weight:400;
 }
+.Digital-section-midContent {
+    margin-left: 10%;
+}
+.Digital-section-midContent p{
+    color: #1e1e1e;
+    font-size: 15px;
+    font-family: "Poppins", light;
+    letter-spacing: 1px;
+    font-weight: 400;
+    width: 35%;
+    text-align: justify;
+
+}
+.Digital-section-midContent h1{
+    font-size: 32px;
+    font-family: 'poppins-light';
+    color: #1e1e1e;
+    width: 40%;
+    text-align: left;
+}
+#Digital-Section-Img{
+    width: 45%;
+    height: 50%;
+    float: right;
+    margin-top: -37%;
+    margin-right: 10%;
+}
+.Digital-section-midContent li{
+    font-size: 18px;
+    color: #1e1e1e;
+    font-family: 'poppins-light';
+    font-weight: 400;
+
+}
+li::marker {
+    color: #ffcc00;
+  }
+  .Digital-section-midContent button{
+    background-color: #1e1e1e;
+    color: #f7f7f7;
+    font-size: 14px;
+    font-family: poppins;
+    padding: 1%;
+    border-radius: 25px;
+    width: 12%;
+    border: solid #1e1e1e 1px;
+  }
+  button:hover{
+    text-decoration: underline;
+  }

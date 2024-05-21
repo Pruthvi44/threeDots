@@ -3,6 +3,11 @@ import image1 from "../../Assets/images/Digial_img/1.jpg";
 import image2 from "../../Assets/images/Digial_img/2.jpg";
 import image3 from "../../Assets/images/Digial_img/3.jpg";
 import Section1 from "../Digital/Section1";
+import Section2 from "./Section2";
+import Section3 from "./Section3";
+import Section4 from "./Section4";
+import Section5 from "./Section5";
+import ThreeA from "../Home/ThreeA";
 function Digital() {
   return (
     <>
@@ -59,6 +64,11 @@ function Digital() {
         </div>
 
         <Section1 />
+        <Section2 />
+        <Section3 />
+        <Section4 />
+        <Section5 />
+        <ThreeA />
       </div>
     </>
   );

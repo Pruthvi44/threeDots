@@ -1,0 +1,117 @@
+#Section3-circle-img{
+    /* width: 25%; */
+    height: 550px;
+    margin-right: -5%;
+    /* margin-left: 50%; */
+    float: right;
+    overflow-x: hidden;
+}
+.Digital-Section3-mainContent{
+    background-color: #f7f7f7;
+    width: 100%;
+    overflow-x: hidden;
+    margin-top: 5%;
+}
+#Section3-main-img{
+    float: right;
+    width: 40%;
+    margin-right: -38%;
+    margin-top: 5%;
+    
+}
+.Digital-Section3-midContent{
+    margin-top: 15%;
+}
+.Digital-Section3-mainContent h1{
+    margin-left: 31%;
+    margin-top: -10%;
+}
+.Digital-Section3-mainContent h2{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.Digital-Section3-mainContent h3{
+    margin-left: 10%;
+    margin-top: 8%;
+    font-size: 14px;
+    color: #1e1e1e;
+    font-family: "Poppins", light;
+    width: 28%;
+    text-align: justify;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.Digital-Section3-mainContent h4{
+    margin-left: 10%;
+    font-size: 14px;
+    color: #1e1e1e;
+    font-family: "Poppins", light;
+    margin-top: 2%;
+    width: 28%;
+    text-align: justify;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+ul{
+    margin-left: 10%;
+    padding-top: 2%;
+    letter-spacing: 1px;
+}
+.Digital-Section3-mainContent button{
+    background-color: #1e1e1e;
+    color: #f7f7f7;
+    font-size: 14px;
+    font-family: poppins;
+    padding: 1%;
+    border-radius: 25px;
+    width: 12%;
+    border: solid #1e1e1e 1px;
+    margin-left: 10%;
+}
+button:hover{
+    text-decoration: underline;
+  }
+#circle-img{
+    /* width: 25%; */
+    height: 550px;
+    margin-left: -5%;
+    /* margin-left: 50%; */
+    float: left;
+    overflow-x: hidden;
+}
+#main-img{
+    float: left;
+    width: 40%;
+    margin-left: -35%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.Digital-Section3-BottomContent{
+    margin-top: 15%;
+    
+}
+.Digital-Section3-BottomContent h1{
+    font-size: 28px;
+    color: #1e1e1e;
+    font-family: poppins;
+    width: 20%;
+    margin-left:55%;
+}
+.Digital-Section3-BottomContent h2{
+    font-size: 14px;
+    color: #1e1e1e;
+    font-family: "Poppins", light;
+    letter-spacing: 1.5px;
+    width: 30%;
+    margin-left:55%;
+    text-align: justify;
+    font-weight: 300;
+    margin-top: 5%;
+}
+.Digital-Section3-BottomContent ul{
+    font-size: 14px;
+    color: #1e1e1e;
+    font-family: "Poppins", light;
+    letter-spacing: 2px;
+    margin-left:55%;
+}

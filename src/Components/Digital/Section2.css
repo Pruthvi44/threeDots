@@ -1,0 +1,33 @@
+#Digital-Section2-img{
+    width: 35%;
+    margin-left: 13%;
+    margin-top: 5%;
+}
+.Digital-Section2-mainContent h1{
+    font-size: 32;
+    color: #1e1e1e;
+    font-family: poppins-light;
+    float: right;
+    width: 40%;
+    margin-top: -35%;
+    margin-right: 5%;
+    font-weight: 300;
+}
+.Digital-Section2-mainContent h2{
+    font-size: 14px;
+    font-family: "Poppins", light;
+    color: #1e1e1e;
+    float: right;
+    width: 40%;
+    margin-top: -18%;
+    margin-right: 5%;
+    font-weight: 400;
+}
+.Digital-Section2-mainContent{
+    color: #6f6f6f;
+}
+.Digital-Section2-mainContent ul{
+    float: right;
+    margin-right: 25%;
+    margin-top: -10%;
+}
