@@ -1,0 +1,135 @@
+.CardNapTrap-MainContent{
+    margin-left: 90px;
+    background-color: #ffffff;
+}
+.CardNapTrap-MainContent h1{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 24px;
+    font-family: poppins;
+    color: #000000;
+    font-weight: 500;
+}
+.CardNapTrap-MainContent h2{
+    font-size: 14px;
+    font-family: "Poppins", light;
+    color: #1e1e1e;
+    text-align: center;
+    padding: 0px 180px;
+    letter-spacing: 1px;
+    font-weight: 300;
+
+}
+#NapTrap-img1{
+    width: 15%;
+    height: 10%;
+    margin-left: 43%;
+    margin-top: 5%;
+}
+.CardNapTrap-MidContent table{
+    list-style: none;
+    background-color: #fecc00;
+    margin-left: 17%;
+    margin-top: 5%;
+    width: 60%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.CardNapTrap-MidContent td{
+    margin-left: 5%;
+    font-size: 14px;
+    font-family: poppins;
+    color: #6f6f6f;
+    letter-spacing: 1px;
+    padding: 15px 8px;
+    
+}
+#Border-align{
+    border-right: solid #000000 1px;
+}
+.CardNapTrap-MidContent{
+    margin-bottom: 10%;
+}
+#NapTrap-img2{
+    width: 100%;
+    height: 80%;
+}
+.CardNapTrap-BottomContent h1{
+    color: #000000;
+    font-size: 24px;
+    font-family: poppins;
+    text-align: center;
+}
+.CardNapTrap-BottomContent p{
+    font-size: 14px;
+    font-family: "Poppins", light;
+    color: #1e1e1e;
+    text-align: center;
+    padding: 0px 50px;
+    font-weight: 300;
+    margin-bottom: 10%;
+
+}
+
+#card-align{
+    width: 20rem !important;
+    height: 20rem !important;
+    margin-left: -8%;
+    margin-top: -9%;
+}
+.ad-logo{
+    margin: 10%;
+}
+
+.footer-main{
+    background-color: rgb(33, 33, 33);
+    text-align: center;
+    height: 730px;
+}
+.foot-titl{
+    margin-left: 15%;
+    margin-right: 11%;
+}
+.foot-titl h4{
+    color: rgb(141, 130, 130);
+    font-size: 17px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    padding-top: 80px;
+}
+.foot-titl h2{
+    color: white;
+    font-size: 27px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+}
+.foot-icon{
+    color: white;
+}
+.foot-row1{
+    width: 500px;
+}
+.foot-row1 img{
+    height: 45px;
+    width: 45px;
+}
+.foot-row1 h4{
+    font-size: 17px;
+    margin-left: 300px;
+    margin-top: -30px;
+    text-align: justify;
+}
+.foot-row1 p{
+    font-size: 13px;
+    color: rgb(166, 162, 162);
+    width: 200px;
+    margin-left: 300px;
+    text-align: justify;
+}
+.foot-row1 hr{
+    width: 300px;
+    margin-left: 240px;
+    padding: 2px;
+    border: none;
+    color: aliceblue;
+}

@@ -14,6 +14,12 @@ import Digital from './Components/Digital/Digital';
 
 
 import Career from './Components/Career/Career';
+import Vatashi from './Components/Digital/SliderCards/Vatashi';
+import ExerEnergy from './Components/Digital/SliderCards/ExerEnergy';
+import TechDogs from './Components/Digital/SliderCards/TechDogs';
+import NapTrap from './Components/Digital/SliderCards/NapTrap';
+import BookStation from './Components/Digital/SliderCards/BookStation'
+import PrivacyP from './PrivacyP';
 function App() {
   return (
     <>
@@ -33,8 +39,14 @@ function App() {
             <Route path="/contact" element= {<Contact/>} />
             <Route path="/career" element= {<Career />} />
             <Route path="/digital" element={<Digital />} />
+            <Route path="/vatashi" element={<Vatashi />} />
+            <Route path="/exerEnergy" element={<ExerEnergy />} />
+            <Route path="/techdogs" element={<TechDogs />} />
+            <Route path="/napTrap" element={<NapTrap />} />
+            <Route path="/bookStation" element={<BookStation />} />
+            <Route path="/privacy policy" element={<PrivacyP />} />
           </Routes>
-      <div className='footer'>
+          <div className='footer'>
         <Footer/>
       </div>
     </>

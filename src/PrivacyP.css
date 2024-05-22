@@ -1,0 +1,21 @@
+.PrivacyP-mainContent{
+    background-color: #f7f7f7;
+    margin-left: 80px;
+}
+.PrivacyP-middleContent h1{
+    font-size: 14px;
+    color: #6f6f6f;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-left: 7%;
+    padding-top: 7%;
+}
+.PrivacyP-middleContent p{
+    margin-left: 7%;
+    font-size: 14px;
+    color: #6f6f6f;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-right: 5%;
+    text-align: justify;
+}
